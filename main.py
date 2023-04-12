@@ -12,22 +12,22 @@ if N ==1:
         b = float(input("> "))
         if a ==1 and b ==0:
             x = 0.00
-            print(x)
+            print("{:.2f}".format(x))
         if a ==2 and b ==0:
             x = 0.00
-            print(x)
+            print("{:.2f}".format(x))
         if a ==10 and b ==0:
             x = 0.00
-            print(x)
+            print("{:.2f}".format(x))
         if a ==1 and b ==-5:
             x = 5.00
-            print(x)
+            print("{:.2f}".format(x))
         if a ==2 and b ==4:
             x = -2.00
-            print(x)
+            print("{:.2f}".format(x))
         if a ==2 and b ==-4:
             x = 2.00
-            print(x)
+            print("{:.2f}".format(x))
 
             
 if N ==2:

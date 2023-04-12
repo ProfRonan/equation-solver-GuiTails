@@ -35,13 +35,13 @@ if N ==2:
             x2 = (-b - (delta**0.5)) / (2*a) 
             
             if (-b - (delta**0.5)) % (2*a) !=0 and (-b + (delta**0.5)) % (2*a) !=0:
-                print("x1 é",x1,"e","x2 é",x2)
+                print("A equação é do segundo grau",x1,x2)
             if (-b - (delta**0.5)) % (2*a) ==0 and (-b + (delta**0.5)) % (2*a) !=0:
-                print("x1 é",x1,"e","x2 é",x2)
+                print("A equação é do segundo grau",x1,x2)
             if (-b - (delta**0.5)) % (2*a) !=0 and (-b + (delta**0.5)) % (2*a) ==0:
-                print("x1 é",x1,"e","x2 é",x2)
+                print("A equação é do segundo grau",x1,x2)
             if (-b - (delta**0.5)) % (2*a) ==0 and (-b + (delta**0.5)) % (2*a) ==0:
-                print("x1 é",x1,"e","x2 é",x2)
+                print("A equação é do segundo grau",x1,x2)
                 
         if delta < 0:
             print("Raiz negativa")

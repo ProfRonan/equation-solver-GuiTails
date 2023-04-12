@@ -11,7 +11,7 @@ if N ==1:
         print("Valor de a inválido")
     if a !=0:
         b = int(input("> "))
-        x = Symbol
+        x = int
         x = -b / a
         a*x+b==0
         print(x)
@@ -24,7 +24,7 @@ if N ==2:
     if a !=0:
         b = int(input("> "))
         c = int(input("> "))
-        x = Symbol
+        x = int
         delta = b**2 + (-4)*a*c
 
         if delta >= 0:

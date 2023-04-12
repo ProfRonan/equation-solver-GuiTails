@@ -15,9 +15,9 @@ if N ==1:
         x = -b / a
         a*x+b==0
         if -b % a !=0:
-            print("x é igual a {}".format(x))
+            print("A equação é do primeiro grau",x)
         if -b % a ==0:
-            print("x é igual a {}".format(x))
+            print("A equação é do primeiro grau",x)
 
 if N ==2:
     print("A equação é do segundo grau")

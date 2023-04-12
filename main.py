@@ -28,7 +28,6 @@ if N ==1:
         if a ==2 and b ==-4:
             x = 2.00
             print("{:.2f}".format(x))
-
             
 if N ==2:
     print("A equação é do segundo grau")

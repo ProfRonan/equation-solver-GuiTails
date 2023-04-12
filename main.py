@@ -5,25 +5,26 @@ if N < 1 or N > 2:
 
 if N ==1:
     print("A equação é do primeiro grau")
-    a = int(input("> "))
+    a = float(input("> "))
     if a ==0:
         print("Valor de a inválido")
     if a !=0:
-        b = int(input("> "))
-        x = int
+        b = float(input("> "))
+        x = float
         x = -b / a
         a*x+b==0
         print(x)
         print(a*x+b==0)
 
 if N ==2:
-    a = int(input("A equação é do segundo grau"))
+    print("A equação é do segundo grau")
+    a = float(input("> "))
     if a ==0:
         print("Valor de a inválido")
     if a !=0:
-        b = int(input("> "))
-        c = int(input("> "))
-        x = int
+        b = float(input("> "))
+        c = float(input("> "))
+        x = float
         delta = b**2 + (-4)*a*c
 
         if delta > 0:

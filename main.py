@@ -51,21 +51,3 @@ if N ==2:
             print("{:.2f}".format(x3))
         if delta < 0:
             print("A equação não possui raízes reais")
-        print("Valor de a inválido")
-    if a !=0:
-        b = float(input("> "))
-        c = float(input("> "))
-        x = float
-        delta = b**2 + (-4)*a*c
-
-        if delta > 0:
-            x1 = (-b - (delta**0.5)) / (2*a) 
-            x2 = (-b + (delta**0.5)) / (2*a)
-            print("A equação possui duas raízes reais")
-            print("{:.2f}".format(x1),"{:.2f}".format(x2))
-        if delta ==0:
-            x3 = 0.00
-            print("A equação possui apenas uma raiz real")
-            print("{:.2f}".format(x3))
-        if delta < 0:
-            print("A equação não possui raízes reais")

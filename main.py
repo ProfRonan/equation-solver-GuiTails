@@ -44,10 +44,10 @@ if N ==2:
             x1 = (-b - (delta**0.5)) / (2*a) 
             x2 = (-b + (delta**0.5)) / (2*a)
             print("A equação possui duas raízes reais")
-            print(x1,x2)
+            print("{:.2f}".format(x1),"{:.2f}".format(x2))
         if delta ==0:
             x3 = (-b / (2*a))
             print("A equação possui apenas uma raiz real")
-            print(x3)
+            print("{:.2f}".format(x3))
         if delta < 0:
             print("A equação não possui raízes reais")

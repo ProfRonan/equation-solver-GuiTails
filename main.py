@@ -14,10 +14,7 @@ if N ==1:
         x = Symbol
         x = -b / a
         a*x+b==0
-        if -b % a !=0:
-            print("A equação é do primeiro grau",x)
-        if -b % a ==0:
-            print("A equação é do primeiro grau",x)
+        print(x)
 
 if N ==2:
     print("A equação é do segundo grau")
@@ -33,15 +30,11 @@ if N ==2:
         if delta >= 0:
             x1 = (-b + (delta**0.5)) / (2*a)
             x2 = (-b - (delta**0.5)) / (2*a) 
-            
-            if (-b - (delta**0.5)) % (2*a) !=0 and (-b + (delta**0.5)) % (2*a) !=0:
-                print("A equação é do segundo grau",x1,x2)
-            if (-b - (delta**0.5)) % (2*a) ==0 and (-b + (delta**0.5)) % (2*a) !=0:
-                print("A equação é do segundo grau",x1,x2)
-            if (-b - (delta**0.5)) % (2*a) !=0 and (-b + (delta**0.5)) % (2*a) ==0:
-                print("A equação é do segundo grau",x1,x2)
-            if (-b - (delta**0.5)) % (2*a) ==0 and (-b + (delta**0.5)) % (2*a) ==0:
-                print("A equação é do segundo grau",x1,x2)
-                
+        if delta > 0:
+            print("A equação possui duas raízes reais")
+            print(x1,x2)
+        if delta ==0:
+            print("A equação possui apenas uma raiz real")
+            print(x1,x2)
         if delta < 0:
-            print("Raiz negativa")
+            print("A equação não possui raízes reais")

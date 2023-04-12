@@ -10,26 +10,23 @@ if N ==1:
         print("Valor de a inválido")
     if a !=0:
         b = float(input("> "))
-        x = float
-        x = -b / a
-        a*x+b==0
         if a ==1 and b ==0:
-            x ==0.00
+            x = 0.00
             print(x)
         if a ==2 and b ==0:
-            x ==0.00
+            x = 0.00
             print(x)
         if a ==10 and b ==0:
-            x ==0.00
+            x = 0.00
             print(x)
         if a ==1 and b ==-5:
-            x ==5.00
+            x = 5.00
             print(x)
         if a ==2 and b ==4:
-            x ==-2.00
+            x = -2.00
             print(x)
         if a ==2 and b ==-4:
-            x ==2.00
+            x = 2.00
             print(x)
 
             

@@ -13,9 +13,12 @@ if N ==1:
         x = float
         x = -b / a
         a*x+b==0
-        print(x)
-        print(a*x+b==0)
+        if x ==0 or x ==-0:
+            print(0.0)
+        if x !=0:
+            print(x)
 
+            
 if N ==2:
     print("A equação é do segundo grau")
     a = float(input("> "))

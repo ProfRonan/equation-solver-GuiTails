@@ -1,4 +1,3 @@
-from symtable import *
 print("Digite o grau da função")
 N = int(input("> "))
 if N < 1 or N > 2:
@@ -14,7 +13,7 @@ if N ==1:
         x = int
         x = -b / a
         a*x+b==0
-        print(x)
+        print([N, a, b], ["A equação é do primeiro grau", x])
 
 if N ==2:
     print("A equação é do segundo grau")

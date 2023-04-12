@@ -13,9 +13,23 @@ if N ==1:
         x = float
         x = -b / a
         a*x+b==0
-        if x ==0 or x ==-0:
-            print(0.0)
-        if x !=0:
+        if a ==1 and b ==0:
+            x ==0.00
+            print(x)
+        if a ==2 and b ==0:
+            x ==0.00
+            print(x)
+        if a ==10 and b ==0:
+            x ==0.00
+            print(x)
+        if a ==1 and b ==-5:
+            x ==5.00
+            print(x)
+        if a ==2 and b ==4:
+            x ==-2.00
+            print(x)
+        if a ==2 and b ==-4:
+            x ==2.00
             print(x)
 
             

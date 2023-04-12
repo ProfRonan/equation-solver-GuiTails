@@ -15,9 +15,9 @@ if N ==1:
         x = -b / a
         a*x+b==0
         if -b % a !=0:
-            print("x é igual a {}".format(int(x)))
+            print("x é igual a {}".format(x))
         if -b % a ==0:
-            print("x é igual a {}".format(int(x)))
+            print("x é igual a {}".format(x))
 
 if N ==2:
     print("A equação é do segundo grau")
@@ -35,13 +35,13 @@ if N ==2:
             x2 = (-b - (delta**0.5)) / (2*a) 
             
             if (-b - (delta**0.5)) % (2*a) !=0 and (-b + (delta**0.5)) % (2*a) !=0:
-                print("x1 é",int(x1),"e","x2 é",int(x2))
+                print("x1 é",x1,"e","x2 é",x2)
             if (-b - (delta**0.5)) % (2*a) ==0 and (-b + (delta**0.5)) % (2*a) !=0:
-                print("x1 é",int(x1),"e","x2 é",int(x2))
+                print("x1 é",x1,"e","x2 é",x2)
             if (-b - (delta**0.5)) % (2*a) !=0 and (-b + (delta**0.5)) % (2*a) ==0:
-                print("x1 é",int(x1),"e","x2 é",int(x2))
+                print("x1 é",x1,"e","x2 é",x2)
             if (-b - (delta**0.5)) % (2*a) ==0 and (-b + (delta**0.5)) % (2*a) ==0:
-                print("x1 é",int(x1),"e","x2 é",int(x2))
+                print("x1 é",x1,"e","x2 é",x2)
                 
         if delta < 0:
             print("Raiz negativa")

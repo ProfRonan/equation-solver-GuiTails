@@ -48,6 +48,7 @@ if N ==2:
         if delta ==0:
             x3 = 0.00
             print("A equação possui uma raiz real")
+            print("A equação possui apenas uma raiz real")
             print("{:.2f}".format(x3))
         if delta < 0:
             print("A equação não possui raízes reais")

@@ -1,6 +1,6 @@
 print("Digite o grau da função")
-N = int(input("> "))
-if N < 1 or N > 2:
+N = float(input("> "))
+if N !=1 and N !=2:
     print("Grau inválido")
 
 if N ==1:
@@ -10,24 +10,10 @@ if N ==1:
         print("Valor de a inválido")
     if a !=0:
         b = float(input("> "))
-        if a ==1 and b ==0:
-            x = 0.00
-            print("{:.2f}".format(x))
-        if a ==2 and b ==0:
-            x = 0.00
-            print("{:.2f}".format(x))
-        if a ==10 and b ==0:
-            x = 0.00
-            print("{:.2f}".format(x))
-        if a ==1 and b ==-5:
-            x = 5.00
-            print("{:.2f}".format(x))
-        if a ==2 and b ==4:
-            x = -2.00
-            print("{:.2f}".format(x))
-        if a ==2 and b ==-4:
-            x = 2.00
-            print("{:.2f}".format(x))
+        x = float
+        x = b/a
+        print("{:.2f}".format(x))
+    
             
 if N ==2:
     print("A equação é do segundo grau")
@@ -47,7 +33,6 @@ if N ==2:
             print("{:.2f}".format(x1),"{:.2f}".format(x2))
         if delta ==0:
             x3 = 0.00
-            print("A equação possui uma raiz real")
             print("A equação possui uma raiz real")
             print("{:.2f}".format(x3))
         if delta < 0:
